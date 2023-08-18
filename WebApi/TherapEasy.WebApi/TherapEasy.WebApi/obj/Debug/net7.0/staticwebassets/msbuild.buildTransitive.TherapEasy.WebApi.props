@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\TherapEasy.WebApi.props" />
+</Project>

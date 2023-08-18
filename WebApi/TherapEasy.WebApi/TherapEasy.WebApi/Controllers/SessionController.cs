@@ -17,19 +17,10 @@ namespace TherapEasy.WebApi.Controllers
         public IActionResult GetAll()
         {
             //TODO
-            var Session = _context.Sessions.Where(d => d.IsActive).ToList();
-            return Ok(Session);
+            var session = _context.Sessions.Where(d => d.IsActive).ToList();
+            return Ok(session);
             //Logica para obter sessoes de um usuario, usando serviço de sessoes
             //Retorna as sessoes como resultado
         }
-        [HttpPost]
-        public async Task<IActionResult> CreateSessionAsync([FromBody] CreateSessionRequest request)
-        {
-            //lógica para criar uma nova sessão usando o serviço de sessão.
-            // Retorna os detalhes da sessão recém-criada.
-        }
-
-        // Outros endpoints para atualização, exclusão, etc.
-
     }
 }

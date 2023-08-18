@@ -10,18 +10,18 @@ namespace TherapEasy.WebApi.Data
             
         }
 
-        public DbSet<User> Users { get; set; }
+        //public DbSet<User> Users { get; set; }
         public DbSet<Session> Sessions { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            modelBuilder.Entity<User>(e =>
+            /* modelBuilder.Entity<User>(e =>
             {
                 e.HasKey(u => u.Id); // Define a chave primária
 
                 // Configuração de propriedades
                 e.Property(u => u.Name).IsRequired().HasMaxLength(100);
-                e.Property(u => u.IsTherapist).IsRequired();
+                e.Property(u => u.IsTherapist);
                 e.Property(u => u.UserName).IsRequired().HasMaxLength(50);
                 e.Property(u => u.Email).IsRequired().HasMaxLength(100);
                 e.Property(u => u.PasswordHash).IsRequired().HasMaxLength(200); // Aumente o tamanho conforme necessário
@@ -34,6 +34,15 @@ namespace TherapEasy.WebApi.Data
                     .WithOne(s => s.Patient)
                     .HasForeignKey(s => s.PatientId);
 
+            });*/
+
+            modelBuilder.Entity<Session>(e =>
+            {
+                e.HasKey(u => u.Id);
+                e.Property(u => u.StartTime).IsRequired();
+                e.Property(u => u.EndTime).IsRequired();
+                e.Property(u => u.IsActive);
+                e.Property(u => u.Description);
             });
         }
     }

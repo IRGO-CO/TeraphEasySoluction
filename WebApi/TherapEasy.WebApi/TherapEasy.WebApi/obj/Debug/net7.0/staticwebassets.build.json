@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "vE00IgaxFBZ8vrr5sNx05MK6AAzB+VfRpbWrR2iyWgA=",
+  "Source": "TherapEasy.WebApi",
+  "BasePath": "_content/TherapEasy.WebApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
