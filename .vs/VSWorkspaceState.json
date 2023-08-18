@@ -1,6 +1,11 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\WebApi",
+    "\\WebApi\\TherapEasy.WebApi",
+    "\\WebApi\\TherapEasy.WebApi\\Models",
+    "\\WebApi\\TherapEasy.WebApi\\Services"
   ],
+  "SelectedNode": "\\WebApi\\TherapEasy.WebApi\\Services",
   "PreviewInSolutionExplorer": false
 }
