@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic;
-    
+using Microsoft.EntityFrameworkCore.Design;
+
 namespace TherapEasy.WebApi.Models
 {
     public class User

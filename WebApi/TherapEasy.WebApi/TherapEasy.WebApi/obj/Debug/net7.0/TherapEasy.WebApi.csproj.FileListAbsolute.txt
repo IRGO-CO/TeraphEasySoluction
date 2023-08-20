@@ -69,3 +69,10 @@ C:\RepositorioApp\TherapEasySoluction\WebApi\TherapEasy.WebApi\TherapEasy.WebApi
 C:\RepositorioApp\TherapEasySoluction\WebApi\TherapEasy.WebApi\TherapEasy.WebApi\obj\Debug\net7.0\TherapEasy.WebApi.pdb
 C:\RepositorioApp\TherapEasySoluction\WebApi\TherapEasy.WebApi\TherapEasy.WebApi\obj\Debug\net7.0\TherapEasy.WebApi.genruntimeconfig.cache
 C:\RepositorioApp\TherapEasySoluction\WebApi\TherapEasy.WebApi\TherapEasy.WebApi\obj\Debug\net7.0\ref\TherapEasy.WebApi.dll
+C:\RepositorioApp\TherapEasySoluction\WebApi\TherapEasy.WebApi\TherapEasy.WebApi\bin\Debug\net7.0\Humanizer.dll
+C:\RepositorioApp\TherapEasySoluction\WebApi\TherapEasy.WebApi\TherapEasy.WebApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\RepositorioApp\TherapEasySoluction\WebApi\TherapEasy.WebApi\TherapEasy.WebApi\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+C:\RepositorioApp\TherapEasySoluction\WebApi\TherapEasy.WebApi\TherapEasy.WebApi\bin\Debug\net7.0\Mono.TextTemplating.dll
+C:\RepositorioApp\TherapEasySoluction\WebApi\TherapEasy.WebApi\TherapEasy.WebApi\bin\Debug\net7.0\System.CodeDom.dll
+C:\RepositorioApp\TherapEasySoluction\WebApi\TherapEasy.WebApi\TherapEasy.WebApi\bin\Debug\net7.0\Npgsql.dll
+C:\RepositorioApp\TherapEasySoluction\WebApi\TherapEasy.WebApi\TherapEasy.WebApi\bin\Debug\net7.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll

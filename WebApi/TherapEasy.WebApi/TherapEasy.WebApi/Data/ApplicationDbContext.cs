@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Design;
 using TherapEasy.WebApi.Models;
 
 namespace TherapEasy.WebApi.Data
@@ -7,7 +8,7 @@ namespace TherapEasy.WebApi.Data
     {
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options)
         {
-            
+
         }
 
         //public DbSet<User> Users { get; set; }
@@ -43,6 +44,13 @@ namespace TherapEasy.WebApi.Data
                 e.Property(u => u.EndTime).IsRequired();
                 e.Property(u => u.IsActive);
                 e.Property(u => u.Description);
+
+                e.HasOne(s => s.Patient)
+                    .WithMany()
+                    .HasForeignKey(s => s.PatientId);
+                e.HasOne(s => s.Therapist)
+                    .WithMany()
+                    .HasForeignKey(s => s.TherapistId).OnDelete(DeleteBehavior.NoAction);
             });
         }
     }

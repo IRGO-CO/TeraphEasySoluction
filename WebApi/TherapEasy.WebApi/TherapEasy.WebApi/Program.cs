@@ -1,5 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 using TherapEasy.WebApi.Data;
+using Microsoft.EntityFrameworkCore.Design;
 
 var builder = WebApplication.CreateBuilder(args);
 
